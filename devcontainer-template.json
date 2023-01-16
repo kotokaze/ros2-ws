@@ -1,0 +1,24 @@
+{
+    "id": "ros2-ws",
+    "version": "0.1.0",
+    "name": "ROS2 Workspace",
+    "description": "ROS2 Workspace with Web VNC",
+    "documentationURL": "https://github.com/kotokaze/devcontainers/tree/master/src/ros2-foxy-ws",
+    "licenseURL": "https://github.com/kotokaze/devcontainers/blob/master/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "ROS2 Distributions:",
+            "enum": [
+                "foxy",
+                "humble",
+                "rolling"
+            ],
+            "default": "foxy"
+        }
+    },
+    "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+    ]
+}
